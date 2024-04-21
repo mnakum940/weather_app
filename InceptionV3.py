@@ -54,7 +54,7 @@ data_dir = 'weather-dataset/dataset'
 
 data = tf.keras.preprocessing.image_dataset_from_directory(data_dir)
 
-!pip install split-folders
+#!pip install split-folders
 
 import splitfolders
 input_folder = "weather-dataset/dataset"
