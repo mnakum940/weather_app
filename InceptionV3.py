@@ -14,6 +14,13 @@ Original file is located at
 
 #!kaggle datasets download -d jehanbhathena/weather-dataset
 
+import os
+
+kaggle_api_token_file = os.path.join(os.getcwd(), 'kaggle.json')
+
+dataset_slug = 'jehanbhathena/weather-dataset' 
+api.dataset_download_files(dataset_slug)
+
 import shutil
 
 # Assuming the downloaded dataset is named 'weather_dataset.zip'
