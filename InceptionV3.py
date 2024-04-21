@@ -8,11 +8,11 @@ Original file is located at
 """
 
 
-!mkdir -p ~/.kaggle
+#!mkdir -p ~/.kaggle
 
-!cp kaggle.json ~/.kaggle/
+#!cp kaggle.json ~/.kaggle/
 
-!kaggle datasets download -d jehanbhathena/weather-dataset
+#!kaggle datasets download -d jehanbhathena/weather-dataset
 
 import shutil
 
