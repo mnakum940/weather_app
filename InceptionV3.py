@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/19BGNdU7kEwa8BYGmqY4PUQe2Bc7mAGa0
 """
 
-!pip install kaggle
 
 !mkdir -p ~/.kaggle
 
